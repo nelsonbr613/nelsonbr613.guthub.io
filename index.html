@@ -1,43 +1,72 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bryan Nelson | Portfolio</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <h1>Bryan Nelson</h1>
+  </header>
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#interests">Interests</a></li>
+      <li><a href="#background">Technical Background</a></li>
+      <li><a href="#project">Team Project</a></li>
+    </ul>
+  </nav>
 
-ul.posts li {
-    list-style: none;
-}
+  <main>
+    <section id="interests">
+      <h2>Interests</h2>
+      <ul>
+        <li>Playing soccer</li>
+        <li>Spending time with my family</li>
+        <li>Pursuing a career in cybersecurity after graduation</li>
+      </ul>
+    </section>
+
+    <section id="background">
+      <h2>Technical Background</h2>
+      <ul>
+        <li>I have limited coding experience.</li>
+        <li>I have worked in IT helpdesk for four years.</li>
+        <li>My previous degree is in Biology, and I have worked in quality control.</li>
+      </ul>
+    </section>
+
+    <section id="project">
+      <h2>Smart Solutions Life Counter for Magic: The Gathering</h2>
+      <p>
+        As a Magic: The Gathering player, I know that keeping track
+        of life points can distract from enjoying the game.
+        Our team is developing a web-based life counter to make
+        this easier.
+      </p>
+      <p>
+        The current version is planned for two players, each starting
+        with 20 life points. Players will be able to add or subtract
+        life points and reset the totals for a new game.
+        We are developing the website and reviewing its requirements.
+      </p>
+      <p>
+        I contribute game knowledge, feature ideas, website development,
+        and testing. Our goal is to make the website easy to use
+        on both phones and computers.
+      </p>
+      <p>
+        <a href="https://chimarip-hash.github.io/GVSU-CIS641-SmartSolutions/">
+          Visit our Smart Solutions team website
+        </a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Bryan Nelson | CIS 641</p>
+  </footer>
+</body>
+</html>
